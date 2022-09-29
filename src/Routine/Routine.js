@@ -83,12 +83,12 @@ const Routine = () => {
                     <h3>Exercise Details:</h3>
                     <div className='exercise-details'>
                         <h3>Exercise Time:</h3>
-                        <h3>{total}s</h3>
+                        <h3>{total}m</h3>
                     </div>
 
                     <div className='exercise-details'>
                         <h3>Break Time:</h3>
-                        <h3>{minute}m</h3>
+                        <h3>{minute}s</h3>
                     </div>
 
                 </div>

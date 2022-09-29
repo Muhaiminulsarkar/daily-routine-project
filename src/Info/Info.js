@@ -8,8 +8,8 @@ const Info = (props) => {
             <img src={img} alt="" />
             <h3>{title}</h3>
             <h4>For Age:{Age}</h4>
-            <h4>Time:{time} seconds</h4>
-            <button onClick={() => handleAddToCalculation(props.cultural)}>Add To List</button>
+            <h4>Time:{time} minutes</h4>
+            <button onClick={() => handleAddToCalculation(props.routine)}>Add To List</button>
         </div>
     );
 };
