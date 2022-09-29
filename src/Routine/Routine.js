@@ -66,11 +66,10 @@ const Routine = () => {
                         <h4>Age</h4>
                     </div>
                 </div>
-                <h4>Details:{routines.length}</h4>
 
                 <div>
                     <h3>Add a Break:</h3>
-                    <div className='break-content'>
+                    <div className='break-time'>
                         <button onClick={() => addTominute(10)}>10s</button>
                         <button onClick={() => addTominute(20)}>20s</button>
                         <button onClick={() => addTominute(30)}>30s</button>
@@ -93,7 +92,7 @@ const Routine = () => {
 
                 </div>
 
-                <div className='activity'>
+                <div className='activity-btn'>
                     <button>Activity Completed</button>
                 </div>
             </div>
