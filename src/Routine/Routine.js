@@ -11,8 +11,8 @@ const Routine = () => {
 
     const addTominute = (time) => {
         localStorage.setItem('minute', time);
-        let number = localStorage.getItem("minute");
-        setMinute(number)
+        let value = localStorage.getItem("minute");
+        setMinute(value)
     }
 
 
