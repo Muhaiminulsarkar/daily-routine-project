@@ -1,0 +1,44 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "title": "Study",
+    "img": "https://images.pexels.com/photos/574285/pexels-photo-574285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "Age": "20-25",
+    "time": 60
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    "title": "Prayer",
+    "img": "https://images.pexels.com/photos/2989625/pexels-photo-2989625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "Age": "30-35",
+    "time": 40
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "title": "University",
+    "img": "https://images.pexels.com/photos/2422294/pexels-photo-2422294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "Age": 25,
+    "time": 120
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "title": "Playing",
+    "img": "https://images.pexels.com/photos/11070506/pexels-photo-11070506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "Age": "20-25",
+    "time": 80
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "title": "Excercise",
+    "img": "https://images.pexels.com/photos/3757938/pexels-photo-3757938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "Age": "25-30",
+    "time": 100
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "title": "Eating",
+    "img": "https://images.pexels.com/photos/1861784/pexels-photo-1861784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "Age": "30-35",
+    "time": 65
+  }
+]
