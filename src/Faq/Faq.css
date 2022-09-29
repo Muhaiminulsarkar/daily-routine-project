@@ -1,0 +1,31 @@
+.faq-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+    gap: 10px;
+}
+
+.faq {
+    background-color: rgb(183, 220, 255);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+
+@media screen and (min-width:612px) and (max-width:991px) {
+    .faq-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 10px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:611px) {
+    .faq-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px;
+        gap: 10px;
+    }
+}

@@ -50,7 +50,7 @@ const Routine = () => {
             <div className="right-container">
                 <h3>Muhaiminul Sarkar</h3>
                 <h4>Mirpur-1,Dhaka</h4>
-                <div className='user'>
+                <div className='user-detailis'>
                     <div>
                         <h3>67KG</h3>
                         <h4>Weight</h4>
