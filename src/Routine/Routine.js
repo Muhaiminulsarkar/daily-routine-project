@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import Info from '../Info/Info';
+import './Routine.css'
 
 const Routine = () => {
 
@@ -36,13 +38,12 @@ const Routine = () => {
 
             <div className="routine-container">
                 {
-                    routines.map(cultural => <Content
-                        key={cultural.id}
-                        cultural={cultural}
+                    routines.map(routine => <Info
+                        key={routine.id}
+                        routine={routine}
                         handleAddToCalculation={handleAddToCalculation}
                     >
-
-                    </Content>)
+                    </Info>)
                 }
             </div>
 
