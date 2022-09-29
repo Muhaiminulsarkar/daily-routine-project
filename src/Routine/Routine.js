@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Info from '../Info/Info';
 import './Routine.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Routine = () => {
 
@@ -15,7 +17,7 @@ const Routine = () => {
         setMinute(value)
     }
 
-
+    const notify = () => toast("Your Work Is Done!!!");
     useEffect(() => {
         fetch('routine.json')
             .then(res => res.json())
@@ -29,8 +31,8 @@ const Routine = () => {
     }
 
     let total = 0;
-    for (const element of time) {
-        total = total + element.time;
+    for (const period of time) {
+        total = total + period.time;
     }
 
     return (
@@ -93,7 +95,10 @@ const Routine = () => {
                 </div>
 
                 <div className='activity-btn'>
-                    <button>Activity Completed</button>
+                    <button onClick={notify}>Activity Completed</button>
+                    <ToastContainer />
+
+
                 </div>
             </div>
         </div>
